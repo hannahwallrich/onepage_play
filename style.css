@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+}
+h3 {
+	font-size: 40px;
+	padding: 0px;
+}
+#top {
+	overflow: auto;
+	height: 95vh;
+	background: black url("swings.jpeg") center center no-repeat fixed;
+    background-size: cover;
+}
+.about {
+	overflow: auto;
+	background-color: grey;
+	color: white;
+}
+#join {
+	background-color: white;
+	color: black;
+}
+h1 {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
+	font-size: 60px;
+	border: solid white 3px;
+	border-radius: 20px;
+	width: 250px;
+	text-align: center;
+	font-kerning: 2px;
+	float: right;
+	margin-right: 10px;
+}	
+h2 {
+	font-size: 50px;
+	text-align: center;
+}
+.col {
+	width: 45%;
+	padding: 5px;
+	float: left;
+	margin: 10px;
+}
+#join {
+	clear: left;
+}
+#social {
+	float: left;
+	width: 50%;
+}
+#social img{
+	width: 100px;
+	height: 100px;
+}
