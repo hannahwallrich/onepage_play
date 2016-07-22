@@ -34,10 +34,43 @@ h1 {
 	font-kerning: 2px;
 	float: right;
 	margin-right: 10px;
+}
+nav {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	border: solid white 3px;
+	border-radius: 20px;
+	width: 250px;
+	text-align: center;
+	font-kerning: 2px;
+	clear: right;
+	float: right;
+	margin-right: 10px;
+	text-decoration: none;
 }	
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 h2 {
 	font-size: 50px;
 	text-align: center;
+}
+#join h3, h4, .joinimg {
+	width: 50%;
+	align: center;
+	float: left;
+}
+.joinimg {
+	padding: 2px;
+	height: 150px;
+}
+#join p {
+	float: right;
+	width: 50%;
 }
 .col {
 	width: 45%;
@@ -48,6 +81,7 @@ h2 {
 #join {
 	clear: left;
 }
+
 #social {
 	float: left;
 	width: 50%;
